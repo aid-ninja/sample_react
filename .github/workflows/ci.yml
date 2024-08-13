@@ -33,9 +33,6 @@ jobs:
   e2e:
     timeout-minutes: 60
     runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: ./apps/react-vite
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
