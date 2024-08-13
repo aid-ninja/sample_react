@@ -3,8 +3,10 @@ on: push
 jobs:
   security:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ./apps/react-vite
     steps:
-      - run: ls && cd /apps/react-vite
       - uses: actions/checkout@master
       - name: Run Snyk to check for vulnerabilities
         uses: snyk/actions/node@master
