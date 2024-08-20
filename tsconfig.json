@@ -16,11 +16,11 @@
     "jsx": "react-jsx",
     "types": ["vite/client", "vitest/globals"],
     "isolatedModules": true,
-    "baseUrl": ".",
+    "baseUrl": "./",
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": ["src/*"]
     }
   },
-  "include": ["src"],
+  "include": ["src/**/*"],
   "exclude": ["node_modules", "**/*.test.tsx", "src/testing/**"]
 }

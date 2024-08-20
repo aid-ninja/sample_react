@@ -17,6 +17,13 @@ export default [
     },
   },
   {
+    languageOptions: {
+      ecmaVersion: "latest",
+      globals: { structuredClone: "readonly"
+      }
+    },
+  },
+  {
     settings: {
       react: {
         version: "detect",
