@@ -8,6 +8,9 @@ import viteTsconfigPaths from 'vite-tsconfig-paths';
 export default defineConfig({
   base: './',
   plugins: [react(), viteTsconfigPaths()],
+  resolve: {
+    alias: [{ find: '@', replacement: '/src' }],
+  },
   server: {
     port: 3000,
   },
