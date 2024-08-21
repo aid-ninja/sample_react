@@ -1,0 +1,29 @@
+{
+  "cookies": [
+    {
+      "name": "bulletproof_react_app_token",
+      "value": "eyJpZCI6ImhWTHM4Z0d4R3Y0WnNFZGdnbGRMYSIsImZpcnN0TmFtZSI6Ikxpc2EuRHVkYSIsImxhc3ROYW1lIjoiWWFlbF9HYXJ6YSIsImVtYWlsIjoiaXNhaCt6aHVAZ29vZ2xlbWFpbC5kZXYiLCJ0ZWFtSWQiOiJ3Q0F5ZjlzTGIwd1QxT2NkZVFwMXMiLCJyb2xlIjoiQURNSU4iLCJiaW8iOiIiLCJjcmVhdGVkQXQiOjE3MjQxOTkyOTgyNjh9",
+      "domain": "localhost",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "http://localhost:3000",
+      "localStorage": [
+        {
+          "name": "msw-db",
+          "value": "{\"team\":[{\"id\":\"wCAyf9sLb0wT1OcdeQp1s\",\"name\":\"Upton - Reichert\",\"description\":\"\",\"createdAt\":1724199298268}],\"user\":[{\"id\":\"hVLs8gGxGv4ZsEdggldLa\",\"firstName\":\"Lisa.Duda\",\"lastName\":\"Yael_Garza\",\"email\":\"isah+zhu@googlemail.dev\",\"password\":\"1119340171\",\"teamId\":\"wCAyf9sLb0wT1OcdeQp1s\",\"role\":\"ADMIN\",\"bio\":\"\",\"createdAt\":1724199298268}]}"
+        },
+        {
+          "name": "__msw-cookie-store__",
+          "value": "[{\"key\":\"bulletproof_react_app_token\",\"value\":\"eyJpZCI6ImhWTHM4Z0d4R3Y0WnNFZGdnbGRMYSIsImZpcnN0TmFtZSI6Ikxpc2EuRHVkYSIsImxhc3ROYW1lIjoiWWFlbF9HYXJ6YSIsImVtYWlsIjoiaXNhaCt6aHVAZ29vZ2xlbWFpbC5kZXYiLCJ0ZWFtSWQiOiJ3Q0F5ZjlzTGIwd1QxT2NkZVFwMXMiLCJyb2xlIjoiQURNSU4iLCJiaW8iOiIiLCJjcmVhdGVkQXQiOjE3MjQxOTkyOTgyNjh9\",\"domain\":\"api.bulletproofapp.com\",\"path\":\"/\",\"hostOnly\":true,\"creation\":\"2024-08-21T00:14:58.269Z\",\"lastAccessed\":\"2024-08-21T00:14:58.269Z\"},{\"key\":\"bulletproof_react_app_token\",\"domain\":\"api.bulletproofapp.com\",\"path\":\"/\",\"hostOnly\":true,\"creation\":\"2024-08-21T00:14:58.269Z\",\"lastAccessed\":\"2024-08-21T00:14:59.392Z\"},{\"key\":\"bulletproof_react_app_token\",\"value\":\"eyJpZCI6ImhWTHM4Z0d4R3Y0WnNFZGdnbGRMYSIsImZpcnN0TmFtZSI6Ikxpc2EuRHVkYSIsImxhc3ROYW1lIjoiWWFlbF9HYXJ6YSIsImVtYWlsIjoiaXNhaCt6aHVAZ29vZ2xlbWFpbC5kZXYiLCJ0ZWFtSWQiOiJ3Q0F5ZjlzTGIwd1QxT2NkZVFwMXMiLCJyb2xlIjoiQURNSU4iLCJiaW8iOiIiLCJjcmVhdGVkQXQiOjE3MjQxOTkyOTgyNjh9\",\"domain\":\"api.bulletproofapp.com\",\"path\":\"/\",\"hostOnly\":true,\"creation\":\"2024-08-21T00:14:58.269Z\",\"lastAccessed\":\"2024-08-21T00:14:59.835Z\"}]"
+        }
+      ]
+    }
+  ]
+}
