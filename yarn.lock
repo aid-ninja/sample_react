@@ -1985,11 +1985,11 @@
     "@sinonjs/commons" "^3.0.0"
 
 "@storybook/addon-a11y@^8.0.10":
-  version "8.2.9"
-  resolved "https://registry.yarnpkg.com/@storybook/addon-a11y/-/addon-a11y-8.2.9.tgz#a32cebf454e0c518e4a609adc5ca7fb29dc3d852"
-  integrity sha512-9zm0Ecn2KUUKZbRsQM5l2KcQ8RHK6a9eqdQtOMjGagrdUvUstcf7XjBmV1W6PQE2Urj93ciz1cgx4T1AYQyKtA==
+  version "8.4.3"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-a11y/-/addon-a11y-8.4.3.tgz#3021cede50d87df6f688d513101bb9f2dd1ebced"
+  integrity sha512-/kKk236z2VLu0TMAabe+B03NZR+WO6ghH+7TD85fz2mqKNH2KDGjDlVSooZzLIH60Kti2lp23NZJjhUqCUhD4Q==
   dependencies:
-    "@storybook/addon-highlight" "8.2.9"
+    "@storybook/addon-highlight" "8.4.3"
     axe-core "^4.2.0"
 
 "@storybook/addon-actions@8.2.9", "@storybook/addon-actions@^8.0.9":
@@ -2060,6 +2060,13 @@
   version "8.2.9"
   resolved "https://registry.yarnpkg.com/@storybook/addon-highlight/-/addon-highlight-8.2.9.tgz#684b25461cd82373da49acb0cd704579d573ca0a"
   integrity sha512-qdcazeNQoo9QKIq+LJJZZXvFZoLn+i4uhbt1Uf9WtW6oU/c1qxORGVD7jc3zsxbQN9nROVPbJ76sfthogxeqWA==
+  dependencies:
+    "@storybook/global" "^5.0.0"
+
+"@storybook/addon-highlight@8.4.3":
+  version "8.4.3"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-highlight/-/addon-highlight-8.4.3.tgz#8f5a74ee9aff68b9ded18506673da3c99259611f"
+  integrity sha512-MfBvokTJkbynHBceA2SgvFvS7Tpdv6FxzSZbeVtJHyYBqXrobj8llpo4n2IqAo/f3otcapN64wK82Jl4u8dYVg==
   dependencies:
     "@storybook/global" "^5.0.0"
 
@@ -3441,7 +3448,12 @@ available-typed-arrays@^1.0.7:
   dependencies:
     possible-typed-array-names "^1.0.0"
 
-axe-core@^4.2.0, axe-core@^4.9.1:
+axe-core@^4.2.0:
+  version "4.10.2"
+  resolved "https://registry.yarnpkg.com/axe-core/-/axe-core-4.10.2.tgz#85228e3e1d8b8532a27659b332e39b7fa0e022df"
+  integrity sha512-RE3mdQ7P3FRSe7eqCWoeQ/Z9QXrtniSjp1wUjt5nRC3WIpz5rSCve6o3fsZ2aCpJtrZjSZgjwXAoTO5k4tEI0w==
+
+axe-core@^4.9.1:
   version "4.10.0"
   resolved "https://registry.yarnpkg.com/axe-core/-/axe-core-4.10.0.tgz#d9e56ab0147278272739a000880196cdfe113b59"
   integrity sha512-Mr2ZakwQ7XUAjp7pAwQWRhhK8mQQ6JAaNWSjmjxil0R8BPioMtQsTLOolGYkji1rcL++3dCqZA3zWqpT+9Ew6g==
