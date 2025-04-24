@@ -7091,10 +7091,15 @@ markdown-to-jsx@^7.4.5:
   resolved "https://registry.yarnpkg.com/markdown-to-jsx/-/markdown-to-jsx-7.5.0.tgz#42ece0c71e842560a7d8bd9f81e7a34515c72150"
   integrity sha512-RrBNcMHiFPcz/iqIj0n3wclzHXjwS7mzjBNWecKKVhNTIxQepIix6Il/wZCn2Cg5Y1ow2Qi84+eJrryFRWBEWw==
 
-marked@*, marked@^14.0.0:
-  version "14.1.2"
-  resolved "https://registry.yarnpkg.com/marked/-/marked-14.1.2.tgz#3cbc26b2d6832be32b75ae0746e0968c781b6156"
-  integrity sha512-f3r0yqpz31VXiDB/wj9GaOB0a2PRLQl6vJmXiFrniNwjkKdvakqJRULhjFKJpxOchlCRiG5fcacoUZY5Xa6PEQ==
+marked@*:
+  version "15.0.10"
+  resolved "https://registry.yarnpkg.com/marked/-/marked-15.0.10.tgz#466f718a312ef83c7560ae05e4f8092b21e3c48b"
+  integrity sha512-BXzsfFiR2UqXFKRwpugWuCYi9mWd1aX/Yns/X52xWfvfen9lnGEDbJw9ZEjjvLZVqntqT2gX45eYvqb2dIokDw==
+
+marked@^14.0.0:
+  version "14.1.4"
+  resolved "https://registry.yarnpkg.com/marked/-/marked-14.1.4.tgz#5e348de817bfa35a11e71de7e41dd7c3fdb186a9"
+  integrity sha512-vkVZ8ONmUdPnjCKc5uTRvmkRbx4EAi2OkTOXmfTDhZz3OFqMNBM1oTTWwTr4HY4uAEojhzPf+Fy8F1DWa3Sndg==
 
 md5@^2.3.0:
   version "2.3.0"
