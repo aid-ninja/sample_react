@@ -15,7 +15,8 @@
     "generate": "plop",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
-    "run-mock-server": "vite-node mock-server.ts | pino-pretty -c"
+    "run-mock-server": "vite-node mock-server.ts | pino-pretty -c",
+    "run-publish": "yarn changeset"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.3.4",
