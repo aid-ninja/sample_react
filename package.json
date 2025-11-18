@@ -121,6 +121,9 @@
   "msw": {
     "workerDirectory": "public"
   },
+  "resolutions": {
+    "msw": "2.8.2"
+  },
   "lint-staged": {
     "*.+(ts|tsx)": [
       "yarn lint",
