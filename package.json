@@ -129,5 +129,6 @@
       "yarn lint",
       "bash -c 'yarn check-types'"
     ]
-  }
+  },
+  "packageManager": "yarn@4.9.1"
 }
