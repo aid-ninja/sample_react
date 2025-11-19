@@ -127,5 +127,5 @@
       "bash -c 'yarn check-types'"
     ]
   },
-  "packageManager": "yarn@4.9.1"
+  "packageManager": "yarn@4.11.0"
 }
