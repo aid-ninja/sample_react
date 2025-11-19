@@ -121,10 +121,14 @@
   "msw": {
     "workerDirectory": "public"
   },
+  "resolutions": {
+    "msw": "2.8.2"
+  },
   "lint-staged": {
     "*.+(ts|tsx)": [
       "yarn lint",
       "bash -c 'yarn check-types'"
     ]
-  }
+  },
+  "packageManager": "yarn@4.9.1"
 }
