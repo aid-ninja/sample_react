@@ -1407,13 +1407,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@ngneat/falso@npm:^7.2.0":
-  version: 7.4.0
-  resolution: "@ngneat/falso@npm:7.4.0"
+"@ngneat/falso@npm:^8.0.0":
+  version: 8.0.2
+  resolution: "@ngneat/falso@npm:8.0.2"
   dependencies:
     seedrandom: "npm:3.0.5"
     uuid: "npm:8.3.2"
-  checksum: 10c0/e9c0998f21599fd3f5c6752d67ac6f2d6754ca5af773f9a73f56ae5fb7f54bd30887b8ebc1c450772dfe3482ab88769360067364528afbb984b275a650183dcf
+  checksum: 10c0/f37d207e7eb10857c3d3f3bc583901da968fa24a7e5fc3df6a8e525212aae485ece8ea221339b08faa190b138f433c382e6143bc8a00618cb0cb65ce9822facd
   languageName: node
   linkType: hard
 
@@ -10899,7 +10899,7 @@ __metadata:
     "@hookform/resolvers": "npm:^3.3.4"
     "@mswjs/data": "npm:^0.16.1"
     "@mswjs/http-middleware": "npm:^0.10.1"
-    "@ngneat/falso": "npm:^7.2.0"
+    "@ngneat/falso": "npm:^8.0.0"
     "@playwright/test": "npm:^1.43.1"
     "@radix-ui/react-dialog": "npm:^1.1.1"
     "@radix-ui/react-dropdown-menu": "npm:^2.1.1"
